@@ -18,9 +18,9 @@ python setup.py build develop
 cd ../../
 
 # Install 100-DOH hand-only detectors
-git clone git@github.com:relh/hand_detector.d2.git
+git clone git@github.com:ddshan/hand_detector.d2.git
 if [ ! -d hand_detector.d2 ]; then
-    git clone https://github.com/relh/hand_detector.d2.git
+    git clone https://github.com/ddshan/hand_detector.d2.git
 fi
 mv hand_detector.d2 hand_only_detector
 
